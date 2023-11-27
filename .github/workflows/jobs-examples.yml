@@ -1,5 +1,5 @@
 
-name: jobs examples
+name: jobs examples 
 on:
   push
   
