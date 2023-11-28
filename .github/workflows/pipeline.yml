@@ -20,7 +20,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      MODULE_FULLNAME: ${{ conchayoro }}/${{ backend }}
+      MODULE_FULLNAME: conchayoro/backend
       REGISTRY_URL: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ vars.AWS_REGION }}.amazonaws.com
     steps:
     - uses: actions/checkout@v3
